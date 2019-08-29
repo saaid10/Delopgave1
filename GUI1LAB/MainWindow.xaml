@@ -1,0 +1,17 @@
+﻿<Window x:Class="GUI1LAB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI1LAB"
+        mc:Ignorable="d"
+        Title="ConfusedCat.exe" Height="1920" Width="1080" WindowStyle="ThreeDBorderWindow">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Saeed\Desktop\136.jpg"/>
+        </Grid.Background>
+        <Label Content="Hello World!" HorizontalAlignment="Left" Margin="178,90,0,0" VerticalAlignment="Top"
+               FontSize="21"/>
+
+    </Grid>
+</Window>
